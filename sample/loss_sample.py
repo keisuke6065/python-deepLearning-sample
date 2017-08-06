@@ -12,8 +12,8 @@ print(crossEntropy(y, t))
 print(np.shape(y))
 
 
-def sampleFunction(x):
-    return 0.01 * x ** 2 + 0.1 * x
+def sampleFunction(X):
+    return 0.01 * X ** 2 + 0.1 * X
 
 
 print(numericalDiff(sampleFunction, 5))
